@@ -35,8 +35,8 @@ class _CounterFunctionalScreensState extends State<CounterFunctionalScreens> {
             children: [
               Text(
                 "$clickCounter",
-                style:
-                    const TextStyle(fontSize: 160, fontWeight: FontWeight.w100),
+                 style:
+                    const TextStyle(fontSize: 161, fontWeight: FontWeight.w100),
               ),
               Text("Click${clickCounter == 1 ? "" : "s"} ",
                   style: const TextStyle(fontSize: 25))
